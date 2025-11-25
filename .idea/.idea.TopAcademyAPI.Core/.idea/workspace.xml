@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6b9f1658-94ee-4c5a-810d-9fca21070f33" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/TopAcademyAPI.Journal/Commands/Command.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TopAcademyAPI.Journal/Commands/LoginCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TopAcademyAPI.Journal/Endpoints/Auth/Login/LoginEndpoint.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TopAcademyAPI.Journal/Endpoints/Count/Homework/HomeworkEndpoint.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TopAcademyAPI.Journal/Endpoints/Homework/Operations/List/ListHomeworkEndpoint.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TopAcademyAPI.Journal/Endpoints/Settings/UserInfo/Models/Group.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TopAcademyAPI.Journal/Endpoints/Settings/UserInfo/UserInfoEndpoint.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TopAcademyAPI.Journal/Factories/HttpClientFactory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TopAcademyAPI.Journal/JournalApi.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TopAcademyAPI.Journal/Services/Http/HttpClientConfigurator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TopAcademyAPI.Journal/Services/Http/HttpJsonSerializer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TopAcademyAPI.Journal/Services/Http/HttpService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TopAcademyApi.Tests/JournalApiTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopAcademyAPI.Core.sln" beforeDir="false" afterPath="$PROJECT_DIR$/TopAcademyAPI.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopAcademyAPI.Core/BaseEndpoints.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TopAcademyAPI.Journal/Endpoints/BaseEndpoints.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopAcademyAPI.Core/Interfaces/IJournalApi.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopAcademyAPI.Core/Interfaces/IOmniApi.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopAcademyAPI.Core/Journal/Auth/Auth.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopAcademyAPI.Core/Journal/Auth/Login/LoginEndpoint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopAcademyAPI.Core/Journal/Auth/Login/LoginRequest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TopAcademyAPI.Journal/Endpoints/Auth/Login/LoginRequest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopAcademyAPI.Core/Journal/Auth/Login/LoginResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TopAcademyAPI.Journal/Endpoints/Auth/Login/LoginResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopAcademyAPI.Core/Journal/Auth/Login/Models/CityData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TopAcademyAPI.Journal/Endpoints/Auth/Login/Models/CityData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopAcademyAPI.Core/Journal/Count/Count.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopAcademyAPI.Core/Journal/Count/Homework/HomeworkEndpoint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopAcademyAPI.Core/Journal/Count/Homework/HomeworkResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TopAcademyAPI.Journal/Endpoints/Count/Homework/HomeworkResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopAcademyAPI.Core/Journal/Homework/Homework.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopAcademyAPI.Core/Journal/Homework/Operations/List/ListHomeworkEndpoint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopAcademyAPI.Core/Journal/Homework/Operations/List/ListHomeworkResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TopAcademyAPI.Journal/Endpoints/Homework/Operations/List/ListHomeworkResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopAcademyAPI.Core/Journal/Homework/Operations/List/Models/HomeworkComment.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TopAcademyAPI.Journal/Endpoints/Homework/Operations/List/Models/HomeworkComment.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopAcademyAPI.Core/Journal/Homework/Operations/List/Models/HomeworkStud.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TopAcademyAPI.Journal/Endpoints/Homework/Operations/List/Models/HomeworkStud.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopAcademyAPI.Core/Journal/Homework/Operations/Operations.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopAcademyAPI.Core/Journal/Journal.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopAcademyAPI.Core/Journal/Settings/Settings.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopAcademyAPI.Core/Journal/Settings/UserInfo/Models/GamingPoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TopAcademyAPI.Journal/Endpoints/Settings/UserInfo/Models/GamingPoint.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopAcademyAPI.Core/Journal/Settings/UserInfo/Models/Group.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopAcademyAPI.Core/Journal/Settings/UserInfo/Models/Visibility.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TopAcademyAPI.Journal/Endpoints/Settings/UserInfo/Models/Visibility.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopAcademyAPI.Core/Journal/Settings/UserInfo/UserInfoEndpoint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopAcademyAPI.Core/Journal/Settings/UserInfo/UserInfoResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TopAcademyAPI.Journal/Endpoints/Settings/UserInfo/UserInfoResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopAcademyAPI.Core/Services/HttpService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopAcademyAPI.Core/TopAcademyAPI.Core.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TopAcademyAPI.Journal/TopAcademyAPI.Journal.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopAcademyAPI.Core/TopAcademyApi.cs" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DpaMonitoringSettings">
+    <option name="firstShow" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;r0kki1&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/r0kki1/TopAcademyAPI.Core.git&quot;,
+    &quot;accountId&quot;: &quot;6629a393-9d5f-4bdc-b4ea-3be1b051bc6e&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/metadata/2d6f3709083e4b968be772d3485955882a00/55/dcf3f74a/TopAcademyAPI.Infrastructure.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/edeb9ab2f99e39819c1fe85b7d137a3684f7302be4c877d0b8fc1bed3d/HttpRequestHeaders.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/ef6dddd9fd148de45cca3794c994aecdeb4121355936248dfd1ebc162a6bf/JsonContent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Application/Class1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TopAcademyAPI.Journal/Commands/Command.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TopAcademyAPI.Journal/Commands/LoginCommand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TopAcademyAPI.Journal/Endpoints/Auth/Login/LoginEndpoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TopAcademyAPI.Journal/Endpoints/Auth/Login/LoginRequest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TopAcademyAPI.Journal/Endpoints/Auth/Login/LoginResponse.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TopAcademyAPI.Journal/Endpoints/Auth/Login/Models/CityData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TopAcademyAPI.Journal/Endpoints/BaseEndpoints.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TopAcademyAPI.Journal/Endpoints/Count/Homework/HomeworkEndpoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TopAcademyAPI.Journal/Endpoints/Count/Homework/HomeworkResponse.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TopAcademyAPI.Journal/Endpoints/Homework/Operations/List/ListHomeworkEndpoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TopAcademyAPI.Journal/Endpoints/Homework/Operations/List/ListHomeworkResponse.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TopAcademyAPI.Journal/Endpoints/Homework/Operations/List/Models/HomeworkComment.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TopAcademyAPI.Journal/Endpoints/Homework/Operations/List/Models/HomeworkStud.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TopAcademyAPI.Journal/Endpoints/Settings/UserInfo/Models/GamingPoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TopAcademyAPI.Journal/Endpoints/Settings/UserInfo/Models/Group.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TopAcademyAPI.Journal/Endpoints/Settings/UserInfo/Models/Visibility.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TopAcademyAPI.Journal/Endpoints/Settings/UserInfo/UserInfoEndpoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TopAcademyAPI.Journal/Endpoints/Settings/UserInfo/UserInfoResponse.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TopAcademyAPI.Journal/Factories/HttpClientFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TopAcademyAPI.Journal/Interfaces/ICommand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TopAcademyAPI.Journal/JournalApi.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TopAcademyAPI.Journal/Services/Http/HttpClientConfigurator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TopAcademyAPI.Journal/Services/Http/HttpJsonSerializer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TopAcademyApi.Tests/JournalApiTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../TopAcademyAPI.Tests/GlobalUsings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../TopAcademyAPI.Tests/TopAcademyApiTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://diff.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://diff.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://diff.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://diff.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="Toolset" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="35ZntFwQc1Fq0kZwlKXnQYxKYml" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;430016a3-5298-453f-9ab0-6606362df7e2.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6b9f1658-94ee-4c5a-810d-9fca21070f33" name="Changes" comment="" />
+      <created>1763326673804</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1763326673804</updated>
+      <workItem from="1763326674963" duration="4760000" />
+      <workItem from="1763331478009" duration="36693000" />
+    </task>
+    <task id="LOCAL-00001" summary="added&#10;&#10;Login&#10;Count/Homework&#10;Homework/List&#10;Settings/UserInfo">
+      <option name="closed" value="true" />
+      <created>1763375839844</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1763375839844</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="added&#10;&#10;Login&#10;Count/Homework&#10;Homework/List&#10;Settings/UserInfo" />
+    <option name="LAST_COMMIT_MESSAGE" value="added&#10;&#10;Login&#10;Count/Homework&#10;Homework/List&#10;Settings/UserInfo" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.OperationCanceledException" breakIfHandledByOtherCode="false" displayValue="System.OperationCanceledException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.Tasks.TaskCanceledException" breakIfHandledByOtherCode="false" displayValue="System.Threading.Tasks.TaskCanceledException" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
