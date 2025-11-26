@@ -11,8 +11,6 @@ public static class HttpClientConfigurator
         if (token != null) 
             httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
         
-        if (httpClient.DefaultRequestHeaders.Referrer == null || httpClient.DefaultRequestHeaders.Accept.Count != 0) return;
-        
         httpClient.DefaultRequestHeaders.Referrer = new Uri(BaseEndpoints.ReferrerEndpoint);
         httpClient.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
     }

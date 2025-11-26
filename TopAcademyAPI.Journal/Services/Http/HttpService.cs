@@ -1,4 +1,7 @@
-﻿namespace TopAcademyAPI.Journal.Services.Http;
+﻿using System.Net;
+using TopAcademyAPI.Journal.Exceptions;
+
+namespace TopAcademyAPI.Journal.Services.Http;
 
 public class HttpService(HttpClient httpClient)
 {
@@ -27,8 +30,19 @@ public class HttpService(HttpClient httpClient)
     private static async Task<TResponse> ExecuteRequestAsync<TResponse>(Func<Task<HttpResponseMessage>> action)
     {
         var response = await action();
-        response.EnsureSuccessStatusCode();  
-
-        return await HttpJsonSerializer.DeserializeAsync<TResponse>(response.Content);
+        
+        try
+        {
+            response.EnsureSuccessStatusCode();  
+            return await HttpJsonSerializer.DeserializeAsync<TResponse>(response.Content);
+        }
+        catch (HttpRequestException e) when (e.StatusCode == HttpStatusCode.UnprocessableEntity)
+        {
+            throw new InvalidLoginOrPasswordException(e);
+        }
+        catch (HttpRequestException e) when (e.StatusCode == HttpStatusCode.Unauthorized)
+        {
+            throw new InvalidTokenException(e);
+        }
     }
 }

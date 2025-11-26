@@ -5,6 +5,17 @@
 	
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=430016a3_002D5298_002D453f_002D9ab0_002D6606362df7e2/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Login_ShouldSucceed_WhenCredentialsValid" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
-    &lt;TestId&gt;xUnit::A48EDDE8-323B-44DD-8FA2-53E3D07210C0::net8.0::TopAcademyApi.Tests.JournalApiTests.Login_WithValidCredentials_ReturnsSuccess&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::E953992F-D101-45A5-8B0B-B478DE84BC84::net8.0::TopAcademyAPI.Tests.JournalApiTests.Login_ValidCredentials_ReturnsResponseNotNull&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::E953992F-D101-45A5-8B0B-B478DE84BC84::net8.0::TopAcademyAPI.Tests.JournalApiTests.UserInfo_ValidCredentials_ReturnsResponseNotNull&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::E953992F-D101-45A5-8B0B-B478DE84BC84::net8.0::TopAcademyAPI.Tests.JournalApiTests.Login_InvalidCredentials_ReturnsError&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::E953992F-D101-45A5-8B0B-B478DE84BC84::net8.0::TopAcademyAPI.Tests.JournalApiTests.UserInfo_InvalidCredentials_ReturnsResponseNotNull&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::E953992F-D101-45A5-8B0B-B478DE84BC84::net8.0::TopAcademyAPI.Tests.JournalApiTests.UserInfo_TokenIsExpiredOrInvalid_ReturnsIsTokenNullException&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::E953992F-D101-45A5-8B0B-B478DE84BC84::net8.0::TopAcademyAPI.Tests.JournalApiTests.UserInfo_TokenIsNull_ReturnsIsTokenNullException&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::E953992F-D101-45A5-8B0B-B478DE84BC84::net8.0::TopAcademyAPI.Tests.JournalApiTests.UserInfo_TokenIsExpiredOrInvalid_ReturnsInvalidTokenException&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=549f4e34_002D1003_002D49e5_002Dab17_002Da2c968859a55/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="UserInfo_TokenIsExpiredOrInvalid_ReturnsIsTokenNullException" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::E953992F-D101-45A5-8B0B-B478DE84BC84::net8.0::TopAcademyAPI.Tests.JournalApiTests.UserInfo_TokenIsExpiredOrInvalid_ReturnsIsTokenNullException&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

@@ -25,7 +25,7 @@ public sealed class JournalApi
         AccessToken = token;
     }
 
-    private static HttpService CreateHttpService(string? token)
+    private static HttpService CreateHttpService(string? token = null)
     {
         var httpClient = HttpClientFactory.Create(token);
         return new HttpService(httpClient);

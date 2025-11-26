@@ -7,30 +7,12 @@ public static class HttpJsonSerializer
 {
     public static HttpContent Serialize<TRequest>(TRequest data)
     {
-        try
-        {
-            return JsonContent.Create(data); 
-        }
-        catch (InvalidOperationException)
-        {
-            throw new InvalidOperationException("result не должно быть null.");
-        }
+        return JsonContent.Create(data); 
     }
     
     public static async Task<TResponse> DeserializeAsync<TResponse>(HttpContent content)
     {
         var json = await content.ReadAsStringAsync();
-        try
-        {
-            return JsonSerializer.Deserialize<TResponse>(json) ?? throw new InvalidOperationException("result не должно быть null.");;
-        }
-        catch (InvalidOperationException)
-        {
-            throw new InvalidOperationException("result не должно быть null.");
-        }
-        catch (JsonException ex)
-        {
-            throw new JsonException($"{json}", ex);
-        }
+        return JsonSerializer.Deserialize<TResponse>(json)!;
     }
 }
