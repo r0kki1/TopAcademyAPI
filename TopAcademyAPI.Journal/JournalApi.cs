@@ -9,7 +9,6 @@ public sealed class JournalApi
 
     public string? AccessToken
     {
-        get => _accessToken;
         set
         {
             if (_accessToken == value && _accessToken != null) return;      

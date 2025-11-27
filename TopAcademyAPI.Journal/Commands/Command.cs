@@ -9,7 +9,7 @@ public static class Command
     {
         if (!isSkipCheckAccessToken && token == null)
         {
-            throw new TokenIsNullException();
+            throw new NullTokenException();
         }
         
         journalApi.AccessToken = token;

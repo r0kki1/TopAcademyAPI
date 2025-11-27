@@ -44,5 +44,9 @@ public class HttpService(HttpClient httpClient)
         {
             throw new InvalidTokenException(e);
         }
+        catch (HttpRequestException e) when (e.StatusCode == HttpStatusCode.Gone)
+        {
+            throw new ExpiredOrInvalidTokenException(e);
+        }
     }
 }

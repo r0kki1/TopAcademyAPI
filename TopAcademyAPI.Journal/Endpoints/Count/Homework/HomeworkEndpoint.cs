@@ -1,5 +1,4 @@
 using TopAcademyAPI.Journal.Commands;
-using TopAcademyAPI.Journal.Endpoints.Auth.Login;
 
 namespace TopAcademyAPI.Journal.Endpoints.Count.Homework;
 

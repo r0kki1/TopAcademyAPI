@@ -1,6 +1,6 @@
 namespace TopAcademyAPI.Journal.Exceptions;
 
-public class TokenIsNullException(
+public class NullTokenException(
     string message = "Токен не указан.")
     : Exception(message);
     

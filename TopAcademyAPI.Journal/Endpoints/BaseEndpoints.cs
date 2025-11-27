@@ -4,6 +4,7 @@ public static class BaseEndpoints
 {
     public const string ReferrerEndpoint = "https://journal.top-academy.ru/";
     public const string LoginEndpoint  = BaseEndpoint + "auth/login";
+    public const string RefreshEndpoint  = BaseEndpoint + "auth/refresh";
     public const string UserInfoEndpoint  = BaseEndpoint + "settings/user-info";
     public const string HomeworkEndpoint  = BaseEndpoint + "count/homework";
     public const string ListHomeworkEndpoint  = BaseEndpoint + "homework/operations/list";
