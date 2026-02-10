@@ -6,6 +6,12 @@ public static class LoginEndpoint
 {
     public static async Task<LoginResponse?> LoginAsync(this JournalApi journalApi, LoginRequest request)
     {
-        return await Command.ExecuteAsync(() => journalApi.HttpService.PostAsync<LoginRequest, LoginResponse>(BaseEndpoints.LoginEndpoint, request), journalApi, isSkipCheckAccessToken: true);
+        var action = journalApi.HttpService.PostAsync<LoginRequest, LoginResponse>(BaseEndpoints.LoginEndpoint, request);
+        
+        var response =  await Command.ExecuteAsync(() => action, journalApi, isSkipCheckAccessToken: true);
+
+        journalApi.AccessToken = response.AccessToken;
+        
+        return response;
     }
 }
